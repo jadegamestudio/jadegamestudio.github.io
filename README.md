@@ -1,6 +1,6 @@
 ## Privacy Policy
 
-Emerald Game Studio built the Milky Way Defender app as an Ad Supported app. This SERVICE is provided by Emerald Game Studio at no cost and is intended for use as is.
+Emerald Game Studio built the Combatron Survivor app as an Ad Supported app. This SERVICE is provided by Emerald Game Studio at no cost and is intended for use as is.
 
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
 
