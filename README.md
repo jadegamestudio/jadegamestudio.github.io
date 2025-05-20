@@ -1,58 +1,83 @@
-## Privacy Policy
+**Privacy Policy & Data Handling Statement for VisaOne Gmail Responder (Personal Use)**
 
-Emerald Game Studio built the Combatron Survivor app as an Ad Supported app. This SERVICE is provided by Emerald Game Studio at no cost and is intended for use as is.
+**Effective Date:** [20-May-2025]
 
-This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+This document outlines how "VisaOne Gmail Responder" (referred to as "the App" or "the Script"), a Python application developed and used solely by Charles Agaton (referred to as "I," "me," "my"), accesses, uses, stores, and handles data from my own Google Gmail account.
 
-If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that We collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+This statement is primarily for personal record-keeping and to ensure compliance with the Google API Services User Data Policy.
 
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at Milky Way Defender unless otherwise defined in this Privacy Policy.
+**1. Purpose of the App**
 
-**Information Collection and Use**
+VisaOne Gmail Responder is a Python application I created and run for my personal use. Its sole purpose is to:
+*   Access my Gmail inbox.
+*   Read incoming emails.
+*   Analyze the content of these emails.
+*   Automatically generate and send replies from my Gmail account based on predefined logic and the content of the received emails.
+The App is authorized by me to access my own Gmail account to automate email responses and improve my personal productivity.
 
-Although we do not directly collect personally identifiable information, the app does use third party services that may collect information used to identify you.
+**2. Information Accessed**
 
-Link to privacy policy of third party service providers used by the app
+When I authorize the App, it accesses the following information from my Gmail account:
 
-*   [Google Play Services](https://www.google.com/policies/privacy/)
+*   **My Gmail Account Information:** My email address and Google OAuth 2.0 authentication tokens. These tokens are stored locally on my personal computer/server where the script runs, solely to maintain an active session and avoid manual re-authentication.
+*   **My Email Content:**
+    *   **Incoming Emails:** Subject lines, sender addresses, recipient addresses, email bodies, and attachments of emails received in my Gmail inbox. This access is solely for the purpose of analyzing the email content to determine and generate an appropriate reply.
+    *   **Outgoing Emails:** The content of replies generated and sent by the App on my behalf from my Gmail account.
+*   **Metadata:** Timestamps and other metadata associated with my emails, as necessary for processing.
 
-**Log Data**
+**3. How My Information is Used**
 
-We want to inform you that whenever you use our Service, in a case of an error in the app We collect data and information (through third party products) on your phone called Log Data. This Log Data may include information such as your device Internet Protocol (“IP”) address, device name, operating system version, the configuration of the app when utilizing our Service, the time and date of your use of the Service, and other statistics.
+The information accessed is used exclusively for the following purposes:
 
-**Cookies**
+*   **To Operate the App for My Benefit:**
+    *   To connect to my Gmail account.
+    *   To read my incoming emails.
+    *   To analyze the content of my emails to understand their context and determine an appropriate automated response.
+    *   To compose and send replies to emails from my Gmail account as per the App's logic.
+*   **Local Storage of Authentication Tokens:** To avoid repeated manual authentication, the OAuth 2.0 tokens are stored securely on the local system where the Script runs. I am responsible for the security of this local system.
 
-Cookies are files with a small amount of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the websites that you visit and are stored on your device's internal memory.
+**The App's use and transfer to any other app of information received from Google APIs will adhere to the Google API Services User Data Policy, including the Limited Use requirements.** This means:
+*   The App will only use access to read, write, modify, or control Gmail message bodies (including attachments), metadata, headers, and settings to provide its intended email processing and replying functionality *for me*.
+*   This Gmail data will **not** be transferred to others unless doing so is necessary for me to (a) provide or improve these features (e.g., if I integrate a new personal tool), (b) comply with applicable law, or (c) as part of a merger, acquisition, or sale of assets (though this is highly unlikely for a personal script).
+*   The App does **not** use this Gmail data for serving advertisements.
+*   As I am the sole operator and developer, I am the only human who might read this data during development, debugging, or normal operation of the Script on my own account. This access is inherent to my use and control of the Script for its intended purpose.
 
-This Service does not use these “cookies” explicitly. However, the app may use third party code and libraries that use “cookies” to collect information and improve their services. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your device. If you choose to refuse our cookies, you may not be able to use some portions of this Service.
+**4. Information Sharing**
 
-**Service Providers**
+Since this App is for my personal use only:
 
-We may employ third-party companies and individuals due to the following reasons:
+*   **No Sharing with Third Parties:** My email data processed by this App is not shared with any external third parties, other than Google itself as a necessary part of using the Gmail API.
+*   **Google:** Information is inherently exchanged with Google's servers to use the Gmail API. This is governed by my agreement with Google and Google's Privacy Policy.
 
-*   To facilitate our Service;
-*   To provide the Service on our behalf;
-*   To perform Service-related services; or
-*   To assist us in analyzing how our Service is used.
+**5. Data Security**
 
-We want to inform users of this Service that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+I take reasonable measures to secure the App and the data it handles:
 
-**Security**
+*   **OAuth 2.0:** The App uses Google's secure OAuth 2.0 protocol for authentication. My Gmail password is never stored or accessed by the App.
+*   **Local Token Storage:** Authentication tokens are stored on my local machine/server. I am responsible for securing this environment.
+*   **Limited Scope:** The App is designed to request only the permissions necessary for its functioning.
 
-We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and We cannot guarantee its absolute security.
+**6. Data Retention**
 
-**Links to Other Sites**
+*   **Email Content:** The App processes email content in real-time (or near real-time) and does not store email bodies or attachments beyond the transient memory usage required for analysis and reply generation. The original emails remain in my Gmail account, subject to my Gmail settings.
+*   **Authentication Tokens:** OAuth tokens are stored locally on my system until I de-authorize the App, delete the tokens manually, or the tokens expire/are revoked.
+*   **Logs:** The script may generate local logs for debugging or operational monitoring. I am responsible for managing these logs.
 
-This Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, We strongly advise you to review the Privacy Policy of these websites. We have no control over and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+**7. My Rights and Control**
 
-**Children’s Privacy**
+As the sole user and operator:
 
-These Services do not address anyone under the age of 13. We do not knowingly collect personally identifiable information from children under 13\. In the case We discover that a child under 13 has provided us with personal information, We immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact us so that We will be able to do necessary actions.
+*   **Full Control:** I have full control over the App's code, its operation, and the data it accesses.
+*   **Revoke Access:** I can revoke the App's access to my Gmail account at any time through my Google account security settings ([https://myaccount.google.com/permissions](https://myaccount.google.com/permissions)). This will prevent the App from further accessing my Gmail data.
+*   **Data Deletion:** I can delete any locally stored data (like authentication tokens or logs) at any time. Email data itself resides within my Gmail account.
 
-**Changes to This Privacy Policy**
+**8. Changes to This Statement**
 
-We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.
+If I modify the App's functionality in a way that materially changes how it handles my data, I will update this statement accordingly for my records.
 
-**Contact Us**
+**9. Contact (Self-Reference)**
 
-If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@emeraldgamestudio.com.
+For any questions or clarifications regarding this App's data handling, I will refer to my own understanding and documentation of the script.
+
+Developer & Sole User: Charles Agaton
+Contact: charlesagaton@gmail.com
